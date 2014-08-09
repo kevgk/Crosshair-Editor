@@ -1,0 +1,103 @@
+body {
+	font-family: arial, sans-serif;
+	background: #090909;
+	margin: 0px;
+	color: #A0A0A0;
+}
+
+a {
+	background: #171A1F;
+	padding: 5px 10px;
+	border-radius: 3px;
+	color: #fff;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #00c0ff;
+}
+
+#page {
+	margin: 0 auto 25px;
+	width: 900px;
+}
+
+/* Sidebar */
+#sidebar {
+	width: 300px;
+	float: left;
+	height: 740px;
+	margin-top: 10px;
+	padding: 19px 19px 90px;
+	background-color: #fff;
+	border-radius: 4px;
+}
+
+div[id^="slider"] {
+	margin-bottom: 15px;
+}
+
+.range {
+	margin-bottom: 30px;
+	color: #bbb;
+	font-size: 85%;
+}
+
+.range .min, .range .max {
+	width: 33%;
+	float: left;
+}
+
+.range .mid {
+	width: 34%;
+	float: left;
+	text-align: center;
+}
+
+.range .max {
+	text-align: right;
+}
+
+label, legend, .range {
+	cursor: default;
+}
+
+fieldset {
+	border: none;
+}
+
+legend {
+	border-bottom: 1px solid #E5E5E5;
+	width: 100%;
+	margin-bottom: 20px;
+	font-size: 21px;
+	line-height: 40px;
+	color: #A0A0A0;
+}
+
+/* Workspace */
+#workspace {
+	width: 515px;
+	height: 751px;
+	padding: 19px 19px 80px;
+	background-color: #fff;
+	border-radius: 4px;
+	margin-top: 10px;
+	float: right;
+}
+
+#canvas {
+	border: 1px #bbb solid;
+	background-image: url(../img/bg.png);
+	margin: 0 auto;
+}
+
+#center {
+	width: 64px;
+	margin: 0 auto;
+	height: 256px;
+}
+
+#src {
+	display: none;
+}
