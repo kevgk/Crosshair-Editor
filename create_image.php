@@ -1,6 +1,6 @@
 <?php
 
-//Save Image in "/downloads/"
+//save image in "/downloads/"
 define('UPLOAD_DIR', 'downloads/');
 
 $img = $_POST['img'];
@@ -10,7 +10,5 @@ $file = UPLOAD_DIR . uniqid() . '.png';
 
 if(file_put_contents($file, $data)) {
 	//serve filename
-	$file = str_replace('downloads/', '', $file);
-	echo $file;
+	echo str_replace('downloads/', '', $file);
 }
-else echo 0;
